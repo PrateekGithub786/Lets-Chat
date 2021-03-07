@@ -18,3 +18,11 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
       //End code
       });});}
 getData();
+
+
+var user_name = localStorage.getItem("user");
+document.getElementById("user_name").innerHTML = user_name;
+
+function logout(){
+      window.location = "index.html";
+}
