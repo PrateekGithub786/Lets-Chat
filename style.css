@@ -29,5 +29,7 @@ body
 
     #output
     {
-      padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+      padding: 10px; width:80%;
+      background: rgba(255,255,255,0.8);
+      border-radius: 15px;
     }  

@@ -19,23 +19,22 @@
 <body>
 <div class="container">
 <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
-<center>
-    <h3>Welcome</h3><h3 id="user_name"></h3>
-    <h2>Room Name</h2>
-    <input type="text" placeholder="#Room Name" style="width: 550px;" class="form-control">
-    <button onclick="addRoom()" class="btn btn-success" style="margin-top: 10px">Add Room</button>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3 class="color_white"># ROOMS</h3>
+	<center>
+		<h1 class="header">	
+			Kwitter	
+		</h1>
+		<h3 class="color_white" id="user_name"></h3>
+		<div class="form-group input_div_room_page">
+			<label>#Add Room:</label>
+        <input type="text" id="roomName" class="form-control" placeholder="#Room Name">
+		</div>
+		<button class="btn btn-success" onclick="add_room()">#Add Room</button>
+		<h3 class="color_white">#ROOMS</h3>
 	    <div id="output">
 			
 		</div>
-</center>
-
-
-
+	</center>
 </div>
+<script src="kwitter_room.js"></script>
 </body>
 </html>
